@@ -1,0 +1,251 @@
+route_id,origin,destination,distance_nm,transit_days,transshipments,route_type,base_freight_usd
+R001,Chennai,Rotterdam,8650,24,1,Standard,1850
+R002,Chennai,Rotterdam,9100,27,2,Alternative,1720
+R003,Chennai,Rotterdam,8950,26,1,Alternative,1780
+R004,Chennai,Hamburg,8800,25,1,Standard,1900
+R005,Mumbai,Hamburg,7940,22,1,Standard,1800
+R006,Mumbai,Hamburg,8350,25,2,Alternative,1680
+R007,Mumbai,Rotterdam,7600,21,1,Standard,1750
+R008,Mumbai,Rotterdam,8050,24,2,Alternative,1640
+R009,Singapore,Rotterdam,8400,23,1,Standard,1600
+R010,Singapore,Hamburg,8600,24,1,Standard,1650
+R011,Kolkata,Piraeus,6001,17,1,Standard,1280
+R012,Kolkata,Piraeus,5896,19,3,Economy,1110
+R013,Mumbai,Sydney,5276,13,0,Express,1330
+R014,Mumbai,Sydney,5286,16,2,Alternative,1120
+R015,Chennai,Antwerp,8816,22,0,Express,2110
+R016,Chennai,Antwerp,8492,26,2,Alternative,1710
+R017,Singapore,Los Angeles,11533,29,0,Express,3040
+R018,Singapore,Los Angeles,11573,35,2,Alternative,2560
+R019,Colombo,Tokyo,4700,12,1,Express,1320
+R020,Colombo,Tokyo,4598,13,1,Standard,1150
+R021,Colombo,Antwerp,8000,20,0,Express,1920
+R022,Colombo,Antwerp,7965,24,2,Alternative,1600
+R023,Colombo,Hamburg,8608,22,0,Express,2060
+R024,Colombo,Hamburg,8364,24,1,Standard,1790
+R025,Mumbai,Los Angeles,10951,31,1,Standard,2570
+R026,Mumbai,Los Angeles,10511,33,3,Economy,2170
+R027,Colombo,Sydney,5638,14,0,Express,1420
+R028,Colombo,Sydney,5575,17,2,Alternative,1180
+R029,Singapore,Jebel Ali,1622,5,1,Standard,490
+R030,Singapore,Jebel Ali,1513,5,1,Alternative,430
+R031,Chennai,Genoa,6402,18,1,Standard,1370
+R032,Chennai,Genoa,6265,19,2,Alternative,1260
+R033,Mundra,Jebel Ali,1011,3,1,Standard,300
+R034,Mundra,Jebel Ali,1000,3,1,Alternative,280
+R035,Port Klang,Piraeus,5361,13,0,Express,1280
+R036,Port Klang,Piraeus,5339,16,2,Alternative,1070
+R037,Kolkata,Tokyo,5103,13,1,Express,1430
+R038,Kolkata,Tokyo,5230,15,1,Standard,1310
+R039,Nhava Sheva,Shanghai,3167,8,0,Express,920
+R040,Nhava Sheva,Shanghai,3211,10,2,Alternative,780
+R041,Kolkata,Rotterdam,8693,25,1,Standard,1860
+R042,Kolkata,Rotterdam,8891,27,2,Alternative,1790
+R043,Kochi,Hamburg,8346,21,0,Express,2000
+R044,Kochi,Hamburg,8313,25,1,Alternative,1670
+R045,Colombo,New York,12056,34,1,Standard,2830
+R046,Colombo,New York,11488,34,1,Alternative,2540
+R047,Kochi,Genoa,5872,15,0,Express,1410
+R048,Kochi,Genoa,5699,17,1,Alternative,1150
+R049,Port Klang,Shanghai,3729,11,1,Standard,970
+R050,Port Klang,Shanghai,3769,11,1,Alternative,920
+R051,Mumbai,Piraeus,4807,14,1,Standard,1030
+R052,Mumbai,Piraeus,4705,15,2,Alternative,950
+R053,Visakhapatnam,New York,12733,32,1,Express,3350
+R054,Visakhapatnam,New York,12181,36,2,Alternative,2690
+R055,Mumbai,Shanghai,3171,9,1,Standard,820
+R056,Mumbai,Shanghai,3359,11,2,Alternative,820
+R057,Mundra,Sydney,4936,14,1,Standard,1110
+R058,Mundra,Sydney,4956,17,3,Economy,980
+R059,Mumbai,Tokyo,4251,11,1,Express,1190
+R060,Mumbai,Tokyo,4348,13,1,Standard,1090
+R061,Mumbai,Jebel Ali,1164,4,1,Standard,350
+R062,Mumbai,Jebel Ali,1248,5,2,Alternative,350
+R063,Singapore,Tokyo,4611,12,0,Express,1290
+R064,Singapore,Tokyo,4763,15,2,Alternative,1120
+R065,Singapore,Shanghai,3543,10,1,Standard,920
+R066,Singapore,Shanghai,3474,11,2,Alternative,850
+R067,Singapore,Hamburg,8530,24,1,Standard,1820
+R068,Singapore,Hamburg,8598,25,1,Alternative,1730
+R069,Port Klang,Genoa,6143,15,0,Express,1470
+R070,Port Klang,Genoa,6226,18,1,Standard,1330
+R071,Port Klang,Sydney,5687,15,1,Express,1430
+R072,Port Klang,Sydney,5704,16,1,Standard,1280
+R073,Mundra,Piraeus,4547,12,1,Express,1090
+R074,Mundra,Piraeus,4576,13,1,Standard,980
+R075,Port Klang,Felixstowe,8513,24,1,Standard,1820
+R076,Port Klang,Felixstowe,8075,25,2,Economy,1520
+R077,Nhava Sheva,Felixstowe,7702,20,1,Express,1850
+R078,Nhava Sheva,Felixstowe,7704,22,1,Standard,1650
+R079,Chennai,New York,11830,30,0,Express,3110
+R080,Chennai,New York,12037,34,1,Standard,2830
+R081,Visakhapatnam,Piraeus,5523,16,1,Standard,1180
+R082,Visakhapatnam,Piraeus,5653,18,2,Economy,1060
+R083,Nhava Sheva,Los Angeles,10629,27,0,Express,2800
+R084,Nhava Sheva,Los Angeles,10867,32,2,Alternative,2400
+R085,Chennai,Jebel Ali,1947,5,1,Express,650
+R086,Chennai,Jebel Ali,1902,6,1,Standard,570
+R087,Colombo,Jebel Ali,1646,5,1,Express,550
+R088,Colombo,Jebel Ali,1664,5,1,Standard,500
+R089,Mundra,Shanghai,2979,9,1,Standard,770
+R090,Mundra,Shanghai,2981,11,3,Economy,680
+R091,Colombo,Genoa,5999,17,1,Standard,1280
+R092,Colombo,Genoa,5978,20,3,Economy,1130
+R093,Nhava Sheva,New York,11549,33,1,Standard,2710
+R094,Nhava Sheva,New York,11186,33,1,Alternative,2470
+R095,Port Klang,Rotterdam,8027,21,1,Express,1920
+R096,Port Klang,Rotterdam,8396,24,1,Standard,1800
+R097,Singapore,Sydney,5471,14,0,Express,1380
+R098,Singapore,Sydney,5441,16,1,Standard,1220
+R099,Mundra,Antwerp,7468,19,1,Express,1790
+R100,Mundra,Antwerp,7723,23,1,Alternative,1550
+R101,Colombo,Rotterdam,8310,24,1,Standard,1780
+R102,Colombo,Rotterdam,8537,25,1,Alternative,1720
+R103,Mumbai,Genoa,5345,15,1,Standard,1140
+R104,Mumbai,Genoa,5573,17,2,Alternative,1120
+R105,Kolkata,Shanghai,4448,13,1,Standard,1160
+R106,Kolkata,Shanghai,4443,14,2,Economy,1020
+R107,Nhava Sheva,Hamburg,8144,23,1,Standard,1740
+R108,Nhava Sheva,Hamburg,8007,24,2,Alternative,1610
+R109,Nhava Sheva,Rotterdam,7956,20,0,Express,1910
+R110,Nhava Sheva,Rotterdam,7937,23,1,Standard,1700
+R111,Visakhapatnam,Antwerp,8382,21,0,Express,2010
+R112,Visakhapatnam,Antwerp,8809,26,1,Alternative,1770
+R113,Port Klang,New York,12164,31,1,Express,3200
+R114,Port Klang,New York,12396,36,1,Alternative,2740
+R115,Kochi,Felixstowe,7830,22,1,Standard,1670
+R116,Kochi,Felixstowe,7849,25,3,Economy,1480
+R117,Port Klang,Los Angeles,11305,29,1,Express,2980
+R118,Port Klang,Los Angeles,11615,35,2,Alternative,2570
+R119,Kolkata,Felixstowe,8598,24,1,Standard,1840
+R120,Kolkata,Felixstowe,8595,25,1,Alternative,1730
+R121,Chennai,Los Angeles,11800,33,1,Standard,2770
+R122,Chennai,Los Angeles,11783,37,2,Economy,2440
+R123,Kochi,Los Angeles,10784,27,1,Express,2840
+R124,Kochi,Los Angeles,10644,30,1,Standard,2500
+R125,Kolkata,Los Angeles,11898,30,1,Express,3130
+R126,Kolkata,Los Angeles,11935,34,1,Standard,2800
+R127,Kolkata,Sydney,6230,16,0,Express,1570
+R128,Kolkata,Sydney,6440,19,1,Alternative,1360
+R129,Mundra,Rotterdam,7458,19,1,Express,1790
+R130,Mundra,Rotterdam,7574,22,1,Standard,1620
+R131,Colombo,Piraeus,4963,14,1,Standard,1060
+R132,Colombo,Piraeus,5013,17,3,Economy,940
+R133,Kolkata,Hamburg,9220,26,1,Standard,1970
+R134,Kolkata,Hamburg,8924,29,3,Economy,1680
+R135,Chennai,Piraeus,5659,16,1,Standard,1210
+R136,Chennai,Piraeus,5604,17,2,Alternative,1130
+R137,Kochi,New York,11532,29,0,Express,3040
+R138,Kochi,New York,11870,35,1,Alternative,2620
+R139,Kochi,Sydney,5224,15,1,Standard,1180
+R140,Kochi,Sydney,5161,15,1,Alternative,1090
+R141,Visakhapatnam,Tokyo,5238,13,0,Express,1470
+R142,Visakhapatnam,Tokyo,5047,15,1,Standard,1260
+R143,Visakhapatnam,Sydney,6056,17,1,Standard,1360
+R144,Visakhapatnam,Sydney,5831,18,2,Alternative,1230
+R145,Chennai,Felixstowe,8220,21,0,Express,1970
+R146,Chennai,Felixstowe,8404,25,2,Alternative,1690
+R147,Visakhapatnam,Felixstowe,8531,22,1,Express,2040
+R148,Visakhapatnam,Felixstowe,8376,24,1,Standard,1790
+R149,Mumbai,New York,11681,33,1,Standard,2750
+R150,Mumbai,New York,11894,38,3,Economy,2460
+R151,Kochi,Tokyo,4243,11,0,Express,1190
+R152,Kochi,Tokyo,4500,13,1,Standard,1120
+R153,Colombo,Los Angeles,11435,32,1,Standard,2690
+R154,Colombo,Los Angeles,10916,35,3,Economy,2260
+R155,Visakhapatnam,Hamburg,8862,25,1,Standard,1900
+R156,Visakhapatnam,Hamburg,8919,28,2,Economy,1680
+R157,Nhava Sheva,Jebel Ali,1220,4,1,Standard,370
+R158,Nhava Sheva,Jebel Ali,1226,5,2,Alternative,350
+R159,Port Klang,Hamburg,8523,24,1,Standard,1820
+R160,Port Klang,Hamburg,8389,27,3,Economy,1580
+R161,Chennai,Sydney,5826,17,1,Standard,1310
+R162,Chennai,Sydney,6013,18,2,Alternative,1270
+R163,Visakhapatnam,Los Angeles,11980,34,1,Standard,2820
+R164,Visakhapatnam,Los Angeles,11447,36,3,Economy,2370
+R165,Chennai,Shanghai,3886,11,1,Standard,1010
+R166,Chennai,Shanghai,3958,12,1,Alternative,970
+R167,Port Klang,Jebel Ali,1639,5,1,Standard,490
+R168,Port Klang,Jebel Ali,1684,7,3,Economy,440
+R169,Kochi,Rotterdam,8061,21,1,Express,1930
+R170,Kochi,Rotterdam,8140,23,1,Standard,1740
+R171,Visakhapatnam,Shanghai,4148,11,1,Express,1210
+R172,Visakhapatnam,Shanghai,4222,12,1,Standard,1100
+R173,Visakhapatnam,Jebel Ali,2046,6,1,Express,690
+R174,Visakhapatnam,Jebel Ali,1998,7,2,Alternative,560
+R175,Kolkata,Jebel Ali,2184,7,1,Standard,660
+R176,Kolkata,Jebel Ali,2206,7,2,Alternative,620
+R177,Kochi,Antwerp,8201,21,1,Express,1960
+R178,Kochi,Antwerp,7877,23,1,Alternative,1580
+R179,Kolkata,Antwerp,8983,25,1,Standard,1920
+R180,Kolkata,Antwerp,8765,26,1,Alternative,1760
+R181,Port Klang,Tokyo,4702,12,1,Express,1320
+R182,Port Klang,Tokyo,4539,14,1,Alternative,1070
+R183,Singapore,Piraeus,5295,13,0,Express,1270
+R184,Singapore,Piraeus,5031,14,1,Standard,1080
+R185,Colombo,Felixstowe,7990,20,0,Express,1910
+R186,Colombo,Felixstowe,8314,25,1,Alternative,1670
+R187,Chennai,Hamburg,8985,22,0,Express,2150
+R188,Chennai,Hamburg,8563,26,2,Alternative,1720
+R189,Kochi,Shanghai,3261,8,0,Express,950
+R190,Kochi,Shanghai,3514,11,2,Alternative,860
+R191,Mumbai,Rotterdam,7780,22,1,Standard,1660
+R192,Mumbai,Rotterdam,7944,26,3,Economy,1500
+R193,Visakhapatnam,Rotterdam,9001,23,1,Express,2160
+R194,Visakhapatnam,Rotterdam,8415,25,2,Alternative,1690
+R195,Mumbai,Antwerp,7530,21,1,Standard,1610
+R196,Mumbai,Antwerp,7674,23,2,Alternative,1540
+R197,Chennai,Tokyo,4897,14,1,Standard,1220
+R198,Chennai,Tokyo,4872,15,1,Alternative,1140
+R199,Mundra,New York,11637,30,1,Express,3060
+R200,Mundra,New York,11743,35,1,Alternative,2590
+R201,Chennai,Rotterdam,8577,24,1,Standard,1830
+R202,Chennai,Rotterdam,8489,27,2,Economy,1600
+R203,Kolkata,New York,12832,36,1,Standard,3020
+R204,Kolkata,New York,12704,37,1,Alternative,2810
+R205,Kochi,Jebel Ali,1359,3,0,Express,460
+R206,Kochi,Jebel Ali,1355,4,1,Standard,410
+R207,Mundra,Felixstowe,7750,22,1,Standard,1660
+R208,Mundra,Felixstowe,7740,23,2,Alternative,1560
+R209,Singapore,New York,11922,34,1,Standard,2800
+R210,Singapore,New York,11739,35,2,Alternative,2590
+R211,Singapore,Rotterdam,8004,23,1,Standard,1710
+R212,Singapore,Rotterdam,8380,25,1,Alternative,1680
+R213,Nhava Sheva,Antwerp,7993,20,0,Express,1910
+R214,Nhava Sheva,Antwerp,7671,22,1,Standard,1640
+R215,Singapore,Antwerp,7947,23,1,Standard,1700
+R216,Singapore,Antwerp,7939,24,1,Alternative,1600
+R217,Singapore,Felixstowe,8254,23,1,Standard,1770
+R218,Singapore,Felixstowe,8246,25,2,Alternative,1660
+R219,Colombo,Shanghai,3754,9,0,Express,1090
+R220,Colombo,Shanghai,3578,11,2,Alternative,870
+R221,Nhava Sheva,Tokyo,4210,11,1,Express,1180
+R222,Nhava Sheva,Tokyo,4106,12,1,Standard,1030
+R223,Mundra,Hamburg,8063,23,1,Standard,1720
+R224,Mundra,Hamburg,7910,23,1,Alternative,1590
+R225,Singapore,Genoa,5839,15,1,Express,1400
+R226,Singapore,Genoa,5828,17,1,Standard,1250
+R227,Kochi,Piraeus,4899,14,1,Standard,1050
+R228,Kochi,Piraeus,4868,15,2,Alternative,980
+R229,Nhava Sheva,Sydney,5266,15,1,Standard,1180
+R230,Nhava Sheva,Sydney,5025,16,2,Alternative,1060
+R231,Mundra,Los Angeles,10497,30,1,Standard,2470
+R232,Mundra,Los Angeles,10790,32,2,Alternative,2380
+R233,Mundra,Genoa,5439,16,1,Standard,1160
+R234,Mundra,Genoa,5407,18,3,Economy,1020
+R235,Kolkata,Genoa,6401,16,0,Express,1530
+R236,Kolkata,Genoa,6740,20,1,Alternative,1360
+R237,Mumbai,Hamburg,8036,20,0,Express,1930
+R238,Mumbai,Hamburg,7882,22,1,Standard,1690
+R239,Port Klang,Antwerp,8078,21,1,Express,1940
+R240,Port Klang,Antwerp,7974,24,1,Alternative,1600
+R241,Mundra,Tokyo,3971,12,1,Standard,990
+R242,Mundra,Tokyo,4007,14,3,Economy,880
+R243,Nhava Sheva,Piraeus,4871,13,1,Express,1170
+R244,Nhava Sheva,Piraeus,4722,14,1,Alternative,950
+R245,Nhava Sheva,Genoa,5663,14,0,Express,1360
+R246,Nhava Sheva,Genoa,5740,16,1,Standard,1230
+R247,Visakhapatnam,Genoa,6468,16,0,Express,1550
+R248,Visakhapatnam,Genoa,6632,20,2,Alternative,1330
+R249,Mumbai,Felixstowe,8064,23,1,Standard,1720
+R250,Mumbai,Felixstowe,7752,25,3,Economy,1460
