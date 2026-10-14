@@ -18,11 +18,12 @@ from app.services.quotation_service import QuotationService
 from app.services.quotation_store import QuotationStore
 from app.services.auth_service import AuthService
 from app.services.customer_view import customer_quotation, customer_record
+from app.services.freight_intelligence_service import FreightIntelligenceService
 
 app = FastAPI(
     title="Agentic Maritime Brokerage Platform",
     description="AI-powered maritime freight quotation platform",
-    version="2.0.0"
+    version="3.0.0"
 )
 
 app.add_middleware(
@@ -40,6 +41,7 @@ route_agent = RouteAgent()
 weather_agent = WeatherAgent()
 customs_agent = CustomsAgent()
 quotation_service = QuotationService()
+intelligence_service = FreightIntelligenceService(quotation_service)
 quotation_store = QuotationStore()
 auth_service = AuthService()
 
@@ -79,7 +81,7 @@ def home():
     return {
         "message": "Agentic Maritime Brokerage API is running",
         "project": "Maritime Freight Quotation Platform",
-        "milestone": "Milestone 2 - Pricing, Weather, Customs and Risk"
+        "milestone": "Milestone 3 - Freight Intelligence Engine"
     }
 
 
@@ -209,6 +211,22 @@ def generate_quotation(
     if session["role"] == "admin":
         return result
     return customer_quotation(result)
+
+
+@app.post("/api/intelligence/generate")
+def generate_intelligence(
+    request: QuotationRequest,
+    session: dict = Depends(require_auth)
+):
+    """Unified route + pricing + risk view. Cost/profit only for admins."""
+    return intelligence_service.generate_freight_intelligence(
+        origin=request.origin,
+        destination=request.destination,
+        cargo_type=request.cargo_type,
+        containers=request.containers,
+        documents_ready=request.documents_ready,
+        is_admin=(session["role"] == "admin"),
+    )
 
 
 @app.get("/api/quotations/mine")
